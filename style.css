@@ -1,0 +1,106 @@
+/* GENERAL */
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 40px;
+  margin: 8px 0;
+}
+h4 {
+  text-decoration: underline;
+}
+
+/* HEADER */
+header {
+  width: 100vw;
+}
+/* LOGO */
+.brand img {
+  display: inline-block;
+  padding: 12px;
+  width: 140px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+/* MENU */
+.menu {
+  position: absolute;
+  z-index: 2;
+}
+.menu.first {
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+}
+.menu.second {
+  right: 20px;
+  top: 0;
+}
+.menu.third {
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  color: #3d3e42;
+}
+.menu.third li a {
+  color: #3d3e42;
+}
+.menu li {
+  line-height: 80px;
+  display: inline-block;
+  padding: 0 8px;
+}
+.menu li a {
+  padding: 0 4px;
+  color: black;
+  text-decoration: none;
+}
+/* INFO */
+.info {
+  padding: 12px 32px;
+  margin: 0 20px;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+.info.bg-grey {
+  background: #3d3e42;
+  color: #edebea;
+}
+.info.bg-dkgrey {
+  background: #edebea;
+  color: #3d3e42;
+}
+.full-section .informations {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+}
+/* SECTION */
+.full-section {
+  height: 100vh;
+  position: relative;
+}
+.full-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.full-section .content {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  color: black;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.full-section img .logo {
+  display: inline-block;
+  width: 200px;
+}
